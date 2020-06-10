@@ -18,7 +18,7 @@ class CadenaOperationTest {
 	
 	@Test 
 	void concatMultipleTest() {
-		assertEquals("abcefgh", CadenaOperation.<String>concatMultiple("ab","cd","e","fgh"));
+		assertEquals("abcefgh", CadenaOperation.<String>concatMultiple("ab","c","e","fgh"));
 	}
 
 }
